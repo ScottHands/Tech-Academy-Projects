@@ -1,0 +1,70 @@
+
+<div class="jumbotron jumbotron-fluid text-center bg-danger mx-5 mt-4 hidden-md-down">
+		<div class="container">
+			<h1 class="display-4">Pizza Wrangler</h1>
+			<p class="lead">Your #1 online pizza ordering joint!</p>
+		</div>
+	</div>
+
+
+
+<input id="btnOrder" type="button" onclick="getReceipt()" 
+				value="Place Order">
+			<form id="frmMenu">
+				<div class="menu left">
+					<h3>Size:</h3>
+					<input class="size" type="radio" name="Size" value="Personal Pizza"> Personal Pizza<br>
+					<input class="size" type="radio" name="Size" value="Medium Pizza"> Medium Pizza<br>
+					<input class="size" type="radio" name="Size" value="Large Pizza" checked> Large Pizza<br>
+					<input class="size" type="radio" name="Size" value="Extra Large Pizza"> Extra Large Pizza<br>
+				</div>
+				<div class="menu right">
+					<h3>Meats:</h3>
+					<input class="meats" type="checkbox" name="Meat" value="Pepperoni"> Pepperoni<br>
+					<input class="meats" type="checkbox" name="Meat" value="Sausage"> Sausage <br>
+					<input class="meats" type="checkbox" name="Meat" value="Canadian Bacon"> Canadian Bacon<br> 
+					<input class="meats" type="checkbox" name="Meat" value="Ground Beef"> Ground Beef<br>
+					<input class="meats" type="checkbox" name="Meat" value="Anchovy"> Anchovy<br>
+					<input class="meats" type="checkbox" name="Meat" value="Chicken"> Chicken<br>
+				</div>
+				<div class="menu left">
+					<h3>Cheese:</h3>
+					<input class="size" type="radio" name="Size" value="Regular"> Regular<br>
+					<input class="size" type="radio" name="Size" value="No Cheese"> No Cheese<br>
+					<input class="size" type="radio" name="Size" value="Extra Cheese" checked> Extra Cheese<br>
+				</div>
+				<div class="menu right">
+					<h3>Crust:</h3>
+					<input class="size" type="radio" name="Size" value="Plain Crust"> Plain Crust<br>
+					<input class="size" type="radio" name="Size" value="Garlic Butter Crust"> Garlic Butter Crust<br>
+					<input class="size" type="radio" name="Size" value="Cheese Stuffed Crust" checked> Cheese Stuffed Crust<br>
+					<input class="size" type="radio" name="Size" value="Spicy Crust"> Spicy Crust<br>
+					<input class="size" type="radio" name="Size" value="House Special Crust"> House Special Crust<br>
+				</div>
+				<div class="menu left">
+					<h3>Sauce:</h3>
+					<input class="size" type="radio" name="Size" value="Marinara Sauce"> Marinara Sauce<br>
+					<input class="size" type="radio" name="Size" value="White Sauce"> White Sauce<br>
+					<input class="size" type="radio" name="Size" value="Barbeque Sauce" checked> Barbeque Sauce<br>
+					<input class="size" type="radio" name="Size" value="No Sauce"> No Sauce<br>
+				</div>
+				<div class="menu right">
+					<h3>Veggies:</h3>
+					<input class="meats" type="checkbox" name="Meat" value="Tomatoes"> Tomatoes<br>
+					<input class="meats" type="checkbox" name="Meat" value="Onions"> Onions<br>
+					<input class="meats" type="checkbox" name="Meat" value="Olives"> Olives<br> 
+					<input class="meats" type="checkbox" name="Meat" value="Green Peppers"> Green Peppers<br>
+					<input class="meats" type="checkbox" name="Meat" value="Mushrooms"> Mushrooms<br>
+					<input class="meats" type="checkbox" name="Meat" value="Pineapple"> Pineapple<br>
+					<input class="meats" type="checkbox" name="Meat" value="Spinach"> Spinach<br>
+					<input class="meats" type="checkbox" name="Meat" value="Jalapeno"> Jalapeno<br>
+				</div>
+				<div id="cart">
+					<div id="showText"></div>
+					<div id="totalPrice"></div>
+				</div>
+			</form>
+		</div>
+		<script src="./js/final_drill_basic.js"></script>
+
+

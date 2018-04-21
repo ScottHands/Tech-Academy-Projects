@@ -1,0 +1,4 @@
+ {
+ "cmd": ["jsc", "$file"],
+ "selector": "source.js"
+ }

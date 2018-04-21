@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)file:///Users/scotthands/Desktop/pizza_tutorial/gotham_pizza.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Gotham Pizza</title>
+		
+		<meta content="width=device-width,initial-scale=1.0" name="viewport">
+		
+		<link rel="stylesheet" href="./Gotham Pizza_files/pizza_drill.css">
+	</head>
+	<body background="./Gotham Pizza_files/Gotham_City_Promotional_Photo.jpg" no-repeat="" center="" fixed;="">
+		<div class="container">
+		<div id="menuBG">
+			<h1>GOTHAM PIZZA</h1>
+			<form id="frmMenu">
+				<div class="menu">
+					<h3>Size:</h3>
+					<input class="size" type="radio" name="Size" value="Personal Pizza"> Personal Pizza<br>
+					<input class="size" type="radio" name="Size" value="Medium Pizza"> Medium Pizza<br>
+					<input class="size" type="radio" name="Size" value="Large Pizza" checked=""> Large Pizza<br>
+					<input class="size" type="radio" name="Size" value="Extra Large Pizza"> Extra Large Pizza<br>
+				</div>
+				<div class="menu">
+					<h3>Meats:</h3>
+					<input class="meats" type="checkbox" name="Meat" value="Pepperoni"> Pepperoni<br>
+					<input class="meats" type="checkbox" name="Meat" value="Sausage"> Sausage <br>
+					<input class="meats" type="checkbox" name="Meat" value="Canadian Bacon"> Canadian Bacon<br> 
+					<input class="meats" type="checkbox" name="Meat" value="Ground Beef"> Ground Beef<br>
+					<input class="meats" type="checkbox" name="Meat" value="Anchovy"> Anchovy<br>
+					<input class="meats" type="checkbox" name="Meat" value="Chicken"> Chicken<br>
+				</div>
+				<div class="menu">
+					<h3>Veggies:</h3>
+					<input class="veggies" type="checkbox" name="Veggies" value="Tomatoes"> Tomatoes<br>
+					<input class="veggies" type="checkbox" name="Veggies" value="Onions"> Onions<br>
+					<input class="veggies" type="checkbox" name="Veggies" value="Olives"> Olives<br> 
+					<input class="veggies" type="checkbox" name="Veggies" value="Green Peppers"> Green Peppers<br>
+					<input class="veggies" type="checkbox" name="Veggies" value="Mushrooms"> Mushrooms<br>
+					<input class="veggies" type="checkbox" name="Veggies" value="Pineapple"> Pineapple<br>
+					<input class="veggies" type="checkbox" name="Veggies" value="Spinach"> Spinach<br>
+					<input class="veggies" type="checkbox" name="Veggies" value="Jalapeno"> Jalapeno<br>
+				</div>
+				<div class="menu">
+					<h3>Cheese:</h3>
+					<input class="cheese" type="radio" name="Cheese" value="Regular"> Regular<br>
+					<input class="cheese" type="radio" name="Cheese" value="No Cheese"> No Cheese<br>
+					<input class="cheese" type="radio" name="Cheese" value="Extra Cheese"> Extra Cheese<br> 
+				</div>
+				<div class="menu">
+					<h3>Crust:</h3>
+					<input class="crust" type="radio" name="Crust" value="Plain Crust"> Plain Crust<br>
+					<input class="crust" type="radio" name="Crust" value="Garlic Butter Crust"> Garlic Butter Crust<br>
+					<input class="crust" type="radio" name="Crust" value="Cheese Stuffed Crust"> Cheese Stuffed Crust<br> 
+					<input class="crust" type="radio" name="Crust" value="Spicy Crust"> Spicy Crust<br>
+					<input class="crust" type="radio" name="Crust" value="House Special Crust"> House Special Crust<br>
+				</div>
+				<div class="menu">
+					<h3>Sauce:</h3>
+					<input class="sauce" type="radio" name="Sauce" value="Marinara Sauce"> Marinara Sauce<br>
+					<input class="sauce" type="radio" name="Sauce" value="White Sauce"> White Sauce<br>
+					<input class="sauce" type="radio" name="Sauce" value="Barbeque Sauce"> Barbeque Sauce<br> 
+					<input class="sauce" type="radio" name="Sauce" value="No Sauce"> No Sauce<br>
+				</div>
+				<div class="controls">
+					<div class="button" onclick="getReceipt()">
+					<p>Place Order</p>
+				</div>
+					<div class="button" onclick="clearAll()">
+					<p>Cancel</p>
+				</div>
+				</div>
+				<div id="cart" style="opacity: 1;">
+					<div id="title1"><h3>You Ordered:</h3></div>
+					<div id="title2"><h3>Subtotal:</h3></div>
+					<div id="showText1"><h3>You Ordered:</h3>Large Pizza<br>Pepperoni<br>Sausage<br>Canadian Bacon<br>Ground Beef<br>Anchovy<br>Chicken<br>Tomatoes<br>Onions<br>Olives<br>Green Peppers<br>Mushrooms<br>Pineapple<br>Spinach<br>Jalapeno<br>Extra Cheese<br>Marinara Sauce<br>Cheese Stuffed Crust<br></div>
+					<div id="showText2"><h3>Subtotal:</h3>14<br>1<br>1<br>1<br>1<br>1<br>0<br>1<br>1<br>1<br>1<br>1<br>1<br>1<br>0<br>3<br>0<br>3<br></div>
+					<div id="totalPrice1"><h3>Total Price:</h3></div>
+					<div id="totalPrice2"><h3>Total: <strong>$32.00</strong></h3></div>
+				</div>
+			</form>
+		</div>
+		</div>
+		<script src="./Gotham Pizza_files/final_drill_basic.js"></script>
+	
+</body></html>
