@@ -1,11 +1,25 @@
 .container {
-	opacity: 0.95;
+	/*opacity: 0.95;*/
+	margin: 0;
+
+
 }
 
 body {
-	background-image: "../Gotham_City_Promotional_Photo.jpg";
-	background-repeat: no-repeat center center fixed;
+    /* height: 100%; */
+    /*margin: 0;
+    /*display: block;*/
+    	    	    	/* The image used */
+	background-image: url("GothamCity.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
 
 #menuBG {
 	margin: 6.2% auto;
@@ -17,6 +31,7 @@ body {
 	/* background-color: #2b65c4; */
 	/* box-shadow: 0 0 0 3px rgba(255,255,255, .8); */
 	opacity: 1;
+
 }
 
 #menuBG>h1 {
