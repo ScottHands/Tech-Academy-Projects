@@ -1,2 +1,2 @@
 # Tech-Academy-Projects
-Includes all HTML, CSS, Bootstrap and JavaScript projects completed at The Tech Academy. 
+Includes HTML, CSS, JavaScript, Bootstrap and MS SQL Server projects completed at The Tech Academy. 
